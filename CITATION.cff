@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the accompanying article and the software."
+title: "Generative Predictive Coding of Self-Location (GPC) — Reference Simulation"
+abstract: >
+  A self-contained NumPy simulation accompanying the manuscript "Generative
+  Predictive Coding of Self-Location in Space: A Computational Model of
+  Hippocampal-Entorhinal and Temporoparietal Junction Functional Integration"
+  by Yildirim & Erdeniz. The script implements a precision-weighted Bayesian
+  agent that combines an allocentric position estimate, an egocentric
+  body-centred multisensory representation, and a retrosplenial-style
+  coordinate transform, and reproduces four operating regimes (healthy,
+  full-body illusion, out-of-body experience, disorientation) via free-energy
+  minimisation, with optional offline replay and generative preplay.
+type: software
+version: "11"
+license: MIT
+authors:
+  - family-names: "Yıldırım"
+    given-names: "Aybars"
+    orcid: "https://orcid.org/0000-0002-5918-6386"
+    affiliation: "Experimental Psychology Graduate Program, Izmir University of Economics, Izmir, Turkey"
+  - family-names: "Erdeniz"
+    given-names: "Burak"
+    orcid: "https://orcid.org/0000-0001-5517-5022"
+    affiliation: "Department of Psychology and Complex Systems Application and Research Center, Izmir University of Economics, Izmir, Turkey"
+keywords:
+  - predictive coding
+  - free energy principle
+  - self-location
+  - hippocampus
+  - temporoparietal junction
+  - retrosplenial cortex
+  - allocentric
+  - egocentric
+  - Bayesian inference
+  - out-of-body experience
+preferred-citation:
+  type: article
+  title: "Generative Predictive Coding of Self-Location in Space: A Computational Model of Hippocampal-Entorhinal and Temporoparietal Junction Functional Integration"
+  authors:
+    - family-names: "Yıldırım"
+      given-names: "Aybars"
+      orcid: "https://orcid.org/0000-0002-5918-6386"
+    - family-names: "Erdeniz"
+      given-names: "Burak"
+      orcid: "https://orcid.org/0000-0001-5517-5022"
+  year: 2026
+  notes: "Manuscript submitted for publication. Update journal, volume, pages, and doi once formally published."
